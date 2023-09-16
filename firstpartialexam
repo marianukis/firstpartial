@@ -1,0 +1,21 @@
+#STEP 1
+def DogAI():
+  print("Hi! This is the dog IA.")
+  print("I advanced 2 meters three different times.")
+  iteration1=2/15
+  iteration2=2/17
+  iteration3=2/21
+  print("Let me know if you would like to see the results, by saying yes")
+  input()
+  print("Say yes for results of iteration1, iteration2, and iteration3")
+  input()
+  print(iteration1)
+  print(iteration2)
+  print(iteration3)
+  print("If you want me to calculate the average velocity, say yes")
+  input()
+  add= 15+17+21
+  av= add/3
+  print("the average velocity is", av)
+#STEP 2
+DogAI()
