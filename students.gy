@@ -1,0 +1,18 @@
+print("Enter the number of students:")
+num_stu=int(input())
+for i in range(num_stu): 
+  print("Enter the grades for student")
+  name=int(input())
+  grades.append(name)
+
+average=sum(grades)/len(grades)
+highest=max(grades)
+lowest=min(grades)
+passed=len([grade for grade in grades if grade >=60])
+failed=len([grade for grade in grades if grade <60])
+
+print("Average grade:",average)
+print("Highest grade:",highest)
+print("Lowest grade:",lowest)
+print("Passed:",passed)
+print("Failed:",failed)
